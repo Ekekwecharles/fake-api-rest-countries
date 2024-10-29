@@ -1,4 +1,4 @@
-export function handler(req, res) {
+export default function handler(req, res) {
   // Allow requests from your React app (localhost:3000)
   res.setHeader("Access-Control-Allow-Origin", "*");
   // You can also allow multiple origins by adding more logic if necessary
